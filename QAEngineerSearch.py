@@ -26,7 +26,5 @@ try:
 		header = article.find_elements_by_class_name("entry-title")
 		print(header.text)
 	)
-except:
+finally:
     driver.quit()
-
-driver.quit()
