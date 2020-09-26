@@ -5,7 +5,7 @@ import page
 class PythonOrgSearch(unittest.TestCase):
     def setUp(self):
         print("setup")
-        self.driver = webdriver.Chrome("C:\Program Files (x86)\chromedriver.exe")
+        self.driver = webdriver.Chrome('F:\chromedriver.exe')
         self.driver.get("http://www.python.org")
 
     def test_example(self):
